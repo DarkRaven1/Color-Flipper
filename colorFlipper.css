@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+.main-div {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.color-screen-div {
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.color-text {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.color-change-button {
+  font-weight: bold;
+  padding: 5px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0);
+}
+.color-change-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.color-change-button:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.yellow {
+  background-color: yellow;
+}
+.yellow-text {
+  color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+.red-text {
+  color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+.blue-text {
+  color: blue;
+}
+
+.green {
+  background-color: green;
+}
+.green-text {
+  color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+.purple-text {
+  color: purple;
+}
+
+.pink {
+  background-color: pink;
+}
+.pink-text {
+  color: pink;
+}
+
+.brown {
+  background-color: brown;
+}
+.brown-text {
+  color: brown;
+}
+
+.white {
+  background-color: white;
+}
+.white-text {
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+.orange-text {
+  color: orange;
+}
+
+.black {
+  background-color: black;
+}
+.black-text {
+  color: white;
+}
+.black-button {
+  color: white;
+  border-color: white;
+}
